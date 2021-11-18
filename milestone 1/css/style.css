@@ -1,0 +1,53 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* test */
+    background-color: aqua;
+}
+.slider{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    /* test */
+    background-color: pink;
+}
+.image-big{
+    width: 70%;
+    height: 100%;
+}
+.single-image{
+    width: 100%;
+    height: 100%;
+}
+.single-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.thumbnail-all{
+    width: 30%;
+    height: 100%;
+
+
+}
+.thumbnail-single{
+    width: 100%;
+    height: 20%;
+    
+    /* test */
+    background-color: royalblue;
+}
+.thumbnail-single img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
