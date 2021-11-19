@@ -23,7 +23,7 @@ const text = [
     'Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,',
 ];
 const imageBig = document.querySelector('.image-big');
-const thumbnail = document.querySelector('.thumbnail-single');
+const thumbnail = document.querySelector('.thumbnail-all');
 
 for ( i = 0; i < items.length; i++) {
     const thisImage = items[i];
@@ -42,6 +42,13 @@ for ( i = 0; i < items.length; i++) {
     </div>
     `;
     imageBig.innerHTML += bigImage ;
+
+    const thumbnailSingle = `
+        <div class="thumbnail-single ">
+            <img src="${thisImage}" alt="img ${i}">
+        </div>
+    `;
+    thumbnail.innerHTML += thumbnailSingle ;
 }
 // classe active
 let activeImage = 0;
